@@ -20,6 +20,12 @@ a {
   list-style: none;
 }
 
+.header{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .header__nav {
   min-height: 80px;
   display: flex;
@@ -114,6 +120,14 @@ a {
 
 .block:hover .block__item{
   transform: translate(0%) rotate(360deg);
+}
+
+.header__block{
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  flex-grow: 1;
 }
 
 
