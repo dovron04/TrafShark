@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Gilroy';
+}
 
 .container {
   max-width: 1140px;
@@ -128,7 +131,18 @@ a {
   background-position: center;
   background-size: cover;  
   flex-grow: 1;
+  display: flex;
 }
 
 
+.header__info{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.header__title{
+  
+}
