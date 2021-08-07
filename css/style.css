@@ -144,5 +144,49 @@ a {
 }
 
 .header__title{
-  
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  line-height: 74,88px;
+}
+
+.header__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23,54px;
+  color: #ffffff;
+}
+
+.header__static {
+  display: flex;
+}
+
+.header__index {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 49px;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.header__span {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 18,83px;
+}
+
+.main__info {
+  width: 1110px;
+  height: 300px;
+  display: flex;
+}
+
+.main__item {
+  width: 554px;
 }
